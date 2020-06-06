@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Configurations>Debug;Release</Configurations>
+    <Version>1.0.0</Version>
+    <Authors>Mark Dickinson</Authors>
+    <Company>DickinsonBros</Company>
+    <RepositoryUrl>https://github.com/msdickinson/DickinsonBros.Email.Abstractions.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>
+      Abstractions For DickinsonBros.Email
+
+      https://github.com/msdickinson/DickinsonBros.Email
+    </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MimeKit" Version="2.8.0" />
+  </ItemGroup>
+
+</Project>
