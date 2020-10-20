@@ -6,7 +6,7 @@ namespace DickinsonBros.Email.Abstractions
     public interface IEmailService
     {
         Task SendAsync(MimeMessage message);
-        Task<bool> ValidateEmailDomain(string emailDomain);
+        Task<bool> ValidateEmailDomainAsync(string emailDomain);
         bool IsValidEmailFormat(string email);
     }
 }
